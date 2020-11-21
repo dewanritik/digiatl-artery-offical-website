@@ -1,0 +1,59 @@
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  h1{
+      color: black;
+      text-align-last: center;
+      font-size: 30;
+      font-family:"Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
+  }
+  h2{
+    color: black;
+    text-align: center;
+    font-size: 30;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4{
+    color: rgb(248, 246, 246);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h5{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+    float: right;;
+    border-radius: 20px;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(12, 11, 11);
+    border: 3px solid rgb(14, 13, 13);
+    color: white;
+    border-end-end-radius: 20px;
+}
+input:hover{
+    background-color: rgb(255, 72, 0);
+    color: white;
+    border: 3px solid rgb(251, 255, 0);
+ }
+  .responsive {
+    width: 50;
+    height: auto;
+}
