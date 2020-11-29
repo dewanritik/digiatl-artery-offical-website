@@ -2,6 +2,10 @@
     width: 50;
     height: auto;
 }
+video{
+  width: 100%;
+  height: auto;
+}
  input{
     float:center;
     border-radius: 20px;
